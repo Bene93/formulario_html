@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário</title>
+		<meta charset="utf-8">
+	
+		<script type="text/javascript" src= "script.js"></script>
+
+	</head>
+
+
+
+	<body>
+
+		<h1>Formulário</h1>
+		<div>
+
+		<form onsubmit="formulario(); return false">
+			
+			<div id="div-usuario" class="div-campos">
+				<label>Usuário:</label>
+				<input type="text" id="usuario" usuario="usuario">
+			</div>
+
+			<div class="div-campos">
+				<label>Nome:</label>
+				<input type="text" name="nome" id='Nome' placeholder="">
+			</div>
+
+			<div>
+				<label>CPF:</label>
+				<input type="text" name="cpf" id="cpf">
+			</div>
+
+		<div>
+			<input type="submit" name="enviar" value="enviar">
+
+
+		</div>
+
+			
+			<table id="tabela">
+				<tr>
+					<th>Usuario</th>
+					<th>Nome</th>
+					<th>CPF</th>
+
+				</tr>
+				</table>
+		</body>
+		</html>
